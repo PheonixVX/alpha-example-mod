@@ -1,11 +1,13 @@
 {
   "required": true,
-  "package": "net.earthcomputer.examplemod.mixin",
+  "package": "io.github.pheonixvx.tgascreenshot.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
   ],
   "client": [
-    "MixinMinecraft"
+    "MixinMinecraft",
+    "MixinEntityRenderer",
+    "MixinScreenShotHelper"
   ],
   "injectors": {
     "defaultRequire": 1

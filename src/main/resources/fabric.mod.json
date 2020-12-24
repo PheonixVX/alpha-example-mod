@@ -1,12 +1,13 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "tgascreenshot",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "An Example Mod for Alpha",
+  "name": "TGA Screenshot",
+  "description": "A simple mod which ports DraydenSpace_FS's screenshot mod to Fabric",
   "authors": [
-    "Earthcomputer"
+    "DraydenSpace_FS",
+    "PheonixVX"
   ],
   "contact": {
     "homepage": "https://earthcomputer.net/",
@@ -14,11 +15,11 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/examplemod/icon.png",
+  "icon": "assets/tgascreenshot/icon.png",
 
   "environment": "*",
   "mixins": [
-    "examplemod.mixins.json"
+    "tgascreenshot.mixins.json"
   ],
 
   "depends": {
